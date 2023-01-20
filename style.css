@@ -1,0 +1,14 @@
+button{
+    background-color: rgb(228, 232, 238);
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+    
+    #new_elem{
+    padding: 10px;
+    }

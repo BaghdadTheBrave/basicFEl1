@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta name ="keywords" content="HTML, Storchun">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storchun V.P. IK-03</title>
+    <link rel="stylesheet" type="te xt/css" href="style.css">
 </head>
 <body>
-    <h2>Storchun Volodymyr Petrovych</h2>
+    <h2 id="element" onclick="changeColorElement1()">Storchun Volodymyr Petrovych</h2>
     Kyiv boii since 11.11.11
-    some school, some university u know
+    <p id="next_element" onclick="changeColorElement2()">
+        some school, some university u know
+    </p>
+    
     <ul>
         <li>so basically it's all about chillin' while runnin'</li>
         <li>chillin' while hikin '</li>
@@ -25,7 +30,15 @@
     <p>That's getting harder. I guess it would be somehing like Yaremche.
         Some astonishing mountaines, feshinable resort. Yeah, that's the right one
     </p>
-    <img src="image.jpg" style="width:750px;height:500px">
+    <img src="image.jpg"  alt="Kvasy">
     <a href="https://img07.rl0.ru/afisha/-x-/daily.afisha.ru/uploads/images/0/79/079f283e3f7315a45a9e85dbd17d6b3b.gif">link to another one photo(sorry(not actually photo(sorry x2)))</a>
+    <div class="image_change">
+        <button id="add" onclick="addImage()">Add image</button>
+        <button id="increase" onclick="increaseImage()">Increase image</button>
+        <button id="decrease" onclick="decreaseImage()">Decrease Image</button>
+        <button id="remove" onclick="deleteImage()">Delete image</button>
+        <h1></h1>
+    </div><div id="Kvasy"></div>
+    <script src="script.js"></script>
 </body>
 </html>
