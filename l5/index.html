@@ -1,59 +1,68 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Лабораторна №5 Дивнича Максима," />
-    <meta name="keywords" content="Дивнич, Максим, Лабораторна" />
-    <title>Дивнич М. В., ІО-02, Лабораторна №5, Варіант 44</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="task-1">
-      <div class="input">
-        <h1><em>Task 1</em></h1>
-        <form id="form">
-          <fieldset>
-            <legend class="title">Форма для заповнення</legend>
-            <div class="input-control">
-              <label for="username">ПІБ</label>
-              <input id="username" type="text" placeholder="ТТТТТТ Т.Т." />
-              <div class="error"></div>
-            </div>
-            <div class="input-control">
-              <label for="phone">Телефон</label>
-              <input id="phone" type="text" placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ" />
-              <div class="error"></div>
-            </div>
 
-            <div class="input-control">
-              <label for="idCard">ID-card</label>
-              <input id="idCard" type="text" placeholder="ТТ №ЧЧЧЧЧЧ" />
-              <div class="error"></div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="," />
+  <meta name="keywords" content="Сторчун В.П." />
+  <title>ЛР-5 ІК-03 Вар.29 Сторчун В.П.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="./script-2.js"></script>
+</head>
 
-            <div class="input-control">
-              <label for="birthday">Дата народження</label>
-              <input id="birthday" type="text" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ" />
-              <div class="error"></div>
-            </div>
+<body>
+  <div class="task-1">
+    <div class="input">
+      <h1><em>Task 1</em></h1>
+      <form id="form">
+        <fieldset>
+          <legend class="title">Форма для заповнення</legend>
+          <div class="input-control">
+            <label for="username">ПІБ</label>
+            <input id="username" type="text" placeholder="ТТТТТТ Т.Т." />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="phone">Телефон</label>
+            <input id="phone" type="text" placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ" />
+            <div class="error"></div>
+          </div>
 
-            <div class="input-control">
-              <label for="email">E-mail</label>
-              <input id="email" type="text" placeholder="тттттт@ттттт.com" />
-              <div class="error"></div>
-            </div>
-            <div class="input-control">
-              <button type="submit">Підтвердити</button>
-            </div>
-          </fieldset>
-        </form>
-      </div>
-      <div class="output">
-        <span id="information"></span>
-      </div>
+          <div class="input-control">
+            <label for="idCard">ID-card</label>
+            <input id="idCard" type="text" placeholder="ТТ №ЧЧЧЧЧЧ" />
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label for="birthday">Дата народження</label>
+            <input id="birthday" type="text" placeholder="ЧЧ.ЧЧ.ЧЧЧЧ" />
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label for="email">E-mail</label>
+            <input id="email" type="text" placeholder="тттттт@ттттт.com" />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <button type="submit">Підтвердити</button>
+          </div>
+        </fieldset>
+      </form>
     </div>
-    <br />
-    
-    <script src="script.js"></script>
-  </body>
+    <div class="output">
+      <span id="information"></span>
+    </div>
+  </div>
+  <br />
+
+
+  <div class="task-container">
+    <input type="color" class="color-picker" />
+    <table class="table"></table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
